@@ -44,8 +44,8 @@ const uint8_t PIN_BME_PWR =  4;   // Irrelevant if directly connected to 3.3V
 const uint8_t BME_ADDRESS = 0x76; // If sensor does not work, try 0x77
 
 // WIFI
-const char *WIFI_SSID     = "ssid";
-const char *WIFI_PASSWORD = "password";
+const char *WIFI_SSID     = "Papudraki";
+const char *WIFI_PASSWORD = "naszdomek4";
 const unsigned long WIFI_TIMEOUT = 10000; // ms, WiFi connection timeout.
 
 // HTTP
@@ -58,7 +58,7 @@ const unsigned HTTP_CLIENT_TCP_TIMEOUT = 10000; // ms
 
 // OPENWEATHERMAP API
 // OpenWeatherMap API key, https://openweathermap.org/
-const String OWM_APIKEY   = "abcdefghijklmnopqrstuvwxyz012345";
+const String OWM_APIKEY   = "08efa56d227626acc68a59a9422d6e05";
 const String OWM_ENDPOINT = "api.openweathermap.org";
 // OpenWeatherMap One Call 2.5 API is deprecated for all new free users
 // (accounts created after Summer 2022).
@@ -79,15 +79,15 @@ const String OWM_ONECALL_VERSION = "3.0";
 // LOCATION
 // Set your latitude and longitude.
 // (used to get weather data as part of API requests to OpenWeatherMap)
-const String LAT = "40.7128";
-const String LON = "-74.0060";
+const String LAT = "52.1335";
+const String LON = "20.7532";
 // City name that will be shown in the top-right corner of the display.
-const String CITY_STRING = "New York";
+const String CITY_STRING = "Tulipanowa 16";
 
 // TIME
 // For list of time zones see
 // https://github.com/nayarsystems/posix_tz_db/blob/master/zones.csv
-const char *TIMEZONE = "EST5EDT,M3.2.0,M11.1.0";
+const char *TIMEZONE = "CET-1CEST,M3.5.0,M10.5.0/3";
 // Time format used when displaying sunrise/set times. (Max 11 characters)
 // For more information about formatting see
 // https://man7.org/linux/man-pages/man3/strftime.3.html
@@ -101,7 +101,7 @@ const char *HOUR_FORMAT = "%H";      // 24-hour ex: 01   23
 // Date format used when displaying date in top-right corner.
 // For more information about formatting see
 // https://man7.org/linux/man-pages/man3/strftime.3.html
-const char *DATE_FORMAT = "%a, %B %e"; // ex: Sat, January 1
+const char *DATE_FORMAT = "%a, %e %B"; // ex: Sat, January 1
 // Date/Time format used when displaying the last refresh time along the bottom
 // of the screen.
 // For more information about formatting see
@@ -136,7 +136,7 @@ const int WAKE_TIME = 06; // Hour of first update after BED_TIME, 06:00.
 
 // HOURLY OUTLOOK GRAPH
 // Number of hours to display on the outlook graph. (range: [8-48])
-const int HOURLY_GRAPH_MAX = 24;
+const int HOURLY_GRAPH_MAX = 48;
 
 // BATTERY
 // To protect the battery upon LOW_BATTERY_VOLTAGE, the display will cease to
