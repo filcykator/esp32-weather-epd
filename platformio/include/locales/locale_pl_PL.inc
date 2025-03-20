@@ -120,6 +120,11 @@ const char *TXT_UNITS_PRES_POUNDSPERSQUAREINCH      = "lb/in\xB2";
 // UNITS - VISIBILITY DISTANCE
 const char *TXT_UNITS_DIST_KILOMETERS = "km";
 const char *TXT_UNITS_DIST_MILES      = "mi";
+// UNITS SYMBOLS - PRECIPITATION
+const char *TXT_UNITS_PRECIP_MILLIMETERS = "mm";
+const char *TXT_UNITS_PRECIP_CENTIMETERS = "cm";
+const char *TXT_UNITS_PRECIP_INCHES      = "in";
+
 
 // MISCELLANEOUS MESSAGES
 // Title Case
@@ -210,7 +215,7 @@ const std::vector<String> TERM_SANDSTORM =
 const std::vector<String> TERM_FLOOD =
     {"flood", "storm surge", "seiche", "swell", "high seas", "high tides",
      "tidal surge", "hydrologic",
-     "pow\xF3dź", "stan powodziowy", "cofka"};
+     "powodź", "stan powodziowy", "cofka"};
 const std::vector<String> TERM_VOLCANO =
     {"volcanic", "ash", "volcano", "eruption"};
 const std::vector<String> TERM_AIR_QUALITY =
