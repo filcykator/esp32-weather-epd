@@ -79,10 +79,16 @@ const String OWM_ONECALL_VERSION = "3.0";
 // LOCATION
 // Set your latitude and longitude.
 // (used to get weather data as part of API requests to OpenWeatherMap)
-const String LAT = "52.1335";
-const String LON = "20.7532";
+//Tulipanowa
+//const String LAT = "52.1335";
+//const String LON = "20.7532";
+//Macierzanki 81
+const String LAT = "53.4759";
+const String LON = "14.5115";
+
 // City name that will be shown in the top-right corner of the display.
-const String CITY_STRING = "Tulipanowa 16";
+//const String CITY_STRING = "Tulipanowa 16";
+const String CITY_STRING = "Macierzanki 81";
 
 // TIME
 // For list of time zones see
