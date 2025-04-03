@@ -44,8 +44,8 @@ const uint8_t PIN_BME_PWR =  4;   // Irrelevant if directly connected to 3.3V
 const uint8_t BME_ADDRESS = 0x76; // If sensor does not work, try 0x77
 
 // WIFI
-const char *WIFI_SSID     = "Papudraki";
-const char *WIFI_PASSWORD = "naszdomek4";
+const char *WIFI_SSID     = "FunBox2-5B8A";
+const char *WIFI_PASSWORD = "tomografkomputerowy2";
 const unsigned long WIFI_TIMEOUT = 10000; // ms, WiFi connection timeout.
 
 // HTTP
