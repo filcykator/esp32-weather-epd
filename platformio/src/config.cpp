@@ -44,8 +44,8 @@ const uint8_t PIN_BME_PWR =  4;   // Irrelevant if directly connected to 3.3V
 const uint8_t BME_ADDRESS = 0x76; // If sensor does not work, try 0x77
 
 // WIFI
-const char *WIFI_SSID     = "FunBox2-5B8A";
-const char *WIFI_PASSWORD = "tomografkomputerowy2";
+const char *WIFI_SSID     = "CGA2121_BdEHyMu";
+const char *WIFI_PASSWORD = "gJ4V4htRzUE8nMEUcb";
 const unsigned long WIFI_TIMEOUT = 10000; // ms, WiFi connection timeout.
 
 // HTTP
@@ -79,12 +79,20 @@ const String OWM_ONECALL_VERSION = "3.0";
 // LOCATION
 // Set your latitude and longitude.
 // (used to get weather data as part of API requests to OpenWeatherMap)
+//Mierzyn, Spółdzielców
+//53.42859378239485, 14.47835692758632
+const String LAT = "53.4286";
+const String LON = "14.4784";
+
+
 //Tulipanowa
 //const String LAT = "52.1335";
 //const String LON = "20.7532";
 //Macierzanki 81
-const String LAT = "53.4759";
-const String LON = "14.5115";
+//const String LAT = "53.4759";
+//const String LON = "14.5115";
+
+
 
 // City name that will be shown in the top-right corner of the display.
 //const String CITY_STRING = "Tulipanowa 16";
