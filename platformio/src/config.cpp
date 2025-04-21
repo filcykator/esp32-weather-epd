@@ -96,7 +96,7 @@ const String LON = "14.4784";
 
 // City name that will be shown in the top-right corner of the display.
 //const String CITY_STRING = "Tulipanowa 16";
-const String CITY_STRING = "Macierzanki 81";
+const String CITY_STRING = "Mierzyn";
 
 // TIME
 // For list of time zones see
